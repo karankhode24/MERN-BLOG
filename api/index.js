@@ -16,6 +16,7 @@ console.log('Server is running on port 3000');
 } );
 
 app.use('/api/user', userRoutes);
+
 app.use('/api/auth', authRoutes);
 
 app.use((err, req, res, next)=> {
